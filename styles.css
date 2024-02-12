@@ -1,0 +1,277 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #000000;
+	color: rgb(255, 255, 255);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+  }
+  
+  .opening-animation {
+	text-align: center;
+	animation: fade-in 3s ease-in-out;
+  }
+  
+  .login-container {
+	background-color: #363636;
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	margin-top: 20px;
+  }
+  
+  .login-container h2 {
+	margin-bottom: 10px;
+  }
+  
+  input {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #555;
+	border-radius: 5px;
+	background-color: #444;
+	color: white;
+  }
+  
+  button {
+	background-color: #ff0000;
+	border: none;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  .notification-container {
+	margin-top: 10px;
+  }
+  
+  .notification-popup {
+	display: none;
+	background-color: #555;
+	border: 1px solid #444;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	padding: 5px;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+  }
+/* ... (mantenha o código anterior) */
+
+.user-content {
+	display: none;
+	background-color: #333;
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	margin-top: 20px;
+  }
+  
+  .user-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+  }
+  
+  .user-header p {
+	font-size: 18px;
+  }
+  
+  .user-options {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px;
+  }
+  
+  .square {
+	background-color: #ff0000;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .square:hover {
+	background-color: #0056b3;
+	transform: scale(1.05);
+  }
+  
+  #logoutBtn {
+	background-color: #070606;
+	border: none;
+	color: white;
+	padding: 5px 5px;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+
+  body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-image: url('Kali.jpeg'); /* Substitua pelo caminho da sua imagem */
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  }
+
+
+  body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: Arial, sans-serif;
+  }
+  
+  .hacker-background {
+	background: linear-gradient(135deg, #000 25%, transparent 25%) -50px 0,
+				linear-gradient(225deg, #000 25%, transparent 25%) -50px 0,
+				linear-gradient(315deg, #000 25%, transparent 25%),
+				linear-gradient(45deg, #000 25%, transparent 25%);
+	background-size: 100px 100px;
+	background-color: #111;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+  }
+  
+  .login-container {
+	text-align: center;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.6);
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  input, button {
+	display: block;
+	margin: 10px auto;
+	padding: 10px;
+	width: 80%;
+	border: none;
+	border-radius: 3px;
+  }
+  
+  button {
+	background-color: #4CAF50;
+	color: white;
+	cursor: pointer;
+	transition: background-color 0.3s;
+  }
+  
+  button:hover {
+	background-color: #45a049;
+  }
+/* ... (mantenha o código anterior) */
+
+/* Animação para os botões */
+.button {
+	background-color: #333;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: background-color 0.3s, transform 0.2s;
+	position: relative;
+	overflow: hidden;
+  }
+  
+  .button:hover {
+	background-color: #222;
+	transform: translateX(3px);
+  }
+  
+  .button:active {
+	background-color: #111;
+  }
+  
+  .button:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.1);
+	animation: flicker 3s infinite;
+	pointer-events: none;
+  }
+  
+  @keyframes flicker {
+	0%, 100% {
+	  opacity: 0.7;
+	}
+	10%, 90% {
+	  opacity: 0.4;
+	}
+	20%, 80% {
+	  opacity: 0.8;
+	}
+	30%, 70% {
+	  opacity: 0.5;
+	}
+	40%, 60% {
+	  opacity: 0.9;
+	}
+	50% {
+	  opacity: 0.3;
+	}
+  }
+  
+  /* Restante do código permanece o mesmo */
+  body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: Arial, sans-serif;
+  }
+  
+  .hacker-background {
+	background: linear-gradient(135deg, #000 25%, transparent 25%) -50px 0,
+				linear-gradient(225deg, #000 25%, transparent 25%) -50px 0,
+				linear-gradient(315deg, #000 25%, transparent 25%),
+				linear-gradient(45deg, #000 25%, transparent 25%);
+	background-size: 100px 100px;
+	background-color: #111;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+  }
+  
+  .content-container {
+	text-align: center;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.6);
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Adicionando animações à classe content-container */
+  .content-container {
+	animation: hackerAnimation 5s infinite alternate;
+  }
+  
+  @keyframes hackerAnimation {
+	0% {
+	  transform: rotate(0deg);
+	}
+	100% {
+	  transform: rotate(3deg);
+	}
+  }
+  
+  /* Restante do código permanece o mesmo */
