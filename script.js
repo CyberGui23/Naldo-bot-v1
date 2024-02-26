@@ -2,7 +2,6 @@
   const accounts = [
     { username: "CyberGui", password: "******" },
     { username: "Maricoua", password: "$$$$" },
-    { username: "343Mafupa", password: "001122" },
     { username: "13Kelton", password: "334455" },
     // Adicione mais contas conforme necessário
   ];
