@@ -71,7 +71,7 @@ verifyButton.addEventListener("click", () => {
   const verificationCode = document.getElementById("verificationCode").value;
   
   // Verificar se o código inserido é válido (coloque sua lógica de verificação aqui)
-  if (verificationCode === "####") {
+  if (verificationCode === "#12###") {
     // Código de verificação correto, remova a sobreposição
     overlay.style.display = "none";
   } else {
